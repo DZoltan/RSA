@@ -1,0 +1,16 @@
+C:\Users\septe\source\repos\RSA\bin\Debug\net5.0\RSA.exe
+C:\Users\septe\source\repos\RSA\bin\Debug\net5.0\RSA.deps.json
+C:\Users\septe\source\repos\RSA\bin\Debug\net5.0\RSA.runtimeconfig.json
+C:\Users\septe\source\repos\RSA\bin\Debug\net5.0\RSA.runtimeconfig.dev.json
+C:\Users\septe\source\repos\RSA\bin\Debug\net5.0\RSA.dll
+C:\Users\septe\source\repos\RSA\bin\Debug\net5.0\ref\RSA.dll
+C:\Users\septe\source\repos\RSA\bin\Debug\net5.0\RSA.pdb
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\RSA.csprojAssemblyReference.cache
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\RSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\RSA.AssemblyInfoInputs.cache
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\RSA.AssemblyInfo.cs
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\RSA.csproj.CoreCompileInputs.cache
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\RSA.dll
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\ref\RSA.dll
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\RSA.pdb
+C:\Users\septe\source\repos\RSA\obj\Debug\net5.0\RSA.genruntimeconfig.cache
