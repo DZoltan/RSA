@@ -147,12 +147,13 @@ namespace RSA
         }
 
         /// <summary>
-        /// A függvény leteszteli, hogy a p vagy a q számunk prím e. Ezt egy 3 körös Miller Rabin teszten keresztül valósítja meg.
+        /// A függvény leteszteli, hogy a p vagy a q számunk prím e. Ezt egy 3 körös Miller Rabin teszten keresztül valósítja meg. Ha egy is false, a szám nem prím. 
         /// </summary>
         /// <param name="szam">A q illetve a p</param>
         /// <returns></returns>
         public bool isPrime(long szam)
         {
+            if (szam % 2 == 0) return false;
             int[] a_numbers = { 3, 7, 8 };
             for(int i = 0; i<3; i++)
             {
@@ -160,7 +161,12 @@ namespace RSA
             }
             return true; ;
         }
-
+        /// <summary>
+        /// Miller rabin prímteszt megvalósítása. Követi a tanult metódust. Ha a szám nem teljesíti a feltételeket, akkor false értékkel tér vissza.
+        /// </summary>
+        /// <param name="szam">a tesztelendő szám</param>
+        /// <param name="a">a gyorshatványozásnál az alapot szolgálja</param>
+        /// <returns></returns>
         public bool MillerRabin(long szam, int a)
         {
             long m = szam - 1;
@@ -190,7 +196,13 @@ namespace RSA
             }
             return false ;
         }
-
+        /// <summary>
+        /// A gyorshatványozást megvalósító képlet. Tulajdonképpen az (a^e) % m képletet valósítja meg. 
+        /// </summary>
+        /// <param name="a">alap</param>
+        /// <param name="e">hatványkitevő</param>
+        /// <param name="m">modulos</param>
+        /// <returns></returns>
         public long modPow(long a, long e, long m)
         {
             long result = 1;
@@ -228,7 +240,8 @@ namespace RSA
             return KinaiMaradek(m, c);
         }
 
-        public String textEncryptor(String input)
+        //TODO: A szöveges visszafejtés/titkosítás még hibás.
+        /*public String textEncryptor(String input)
         {
             String titkositott_szoveg = String.Empty;
 
@@ -261,6 +274,6 @@ namespace RSA
             }
 
             return visszafejtett_szoveg;
-        }
+        }*/
     }
 }
